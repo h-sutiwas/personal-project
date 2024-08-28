@@ -27,5 +27,3 @@ def read_csv(folder_path):
                 print(f"Error reading file {filename}: {str(e)}")
     
     return dataframes
-
-read_csv(r".\Ecommerce Order & Supply Chain Dataset\archive\Ecommerce Order Dataset\train")
